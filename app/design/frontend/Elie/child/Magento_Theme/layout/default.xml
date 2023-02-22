@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <body>
+           <referenceContainer name="header.container">
+           <container name="wrapper"   htmlTag="div" htmlClass="row py-2">
+           <container name="col-1"  htmlTag="div"  htmlClass="col-12 col-lg-4 first">
+        
+              <container name="header.left"   htmlTag="div"  htmlClass="left-col " />
+            </container>
+
+             <container name="col-2"  htmlTag="div"  htmlClass="col-12 col-lg-4 second d-flex justify-content-center align-items-center">
+        
+               <container name="header.center"   htmlTag="div"  htmlClass="mid-col" /> 
+            </container>
+
+            <container name="col-3"  htmlTag="div"  htmlClass="col-12 col-lg-4 third">
+                <container name="header.right"   htmlTag="div"  htmlClass="right-col" />
+            </container>
+           </container>
+         
+           
+
+            </referenceContainer>
+
+           
+       
+
+    </body>
+
+<!-- Move -->
+<move element="logo" destination="header.left" />
+<move element="navigation.section" destination="header.center"  />
+<move element="top.search" destination="header.right" before="-" />
+<move element="minicart" destination="header.right" before="-" />
+<move element="catalog.topnav" destination="header.center" before="-" />
+
+  
+
+
+
+
+
+</page>
