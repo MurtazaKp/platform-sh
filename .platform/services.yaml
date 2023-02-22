@@ -20,7 +20,8 @@ searchelastic:
     # The disk attribute is the size of the persistent disk (in MB) allocated to the service.
     disk: 256
     
-  router:
+    
+router:
     type: "nginx:1.21"
     disk: 2048
     configuration:
@@ -28,5 +29,6 @@ searchelastic:
             location / {
                 proxy_pass http://app;
             }
+
 
 
