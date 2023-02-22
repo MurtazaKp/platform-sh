@@ -43,3 +43,9 @@ web:
     '/': 
       root: "web"
       passthru: "/index.php"
+
+  runtime:
+    extensions:
+        - sodium
+        - xsl
+
