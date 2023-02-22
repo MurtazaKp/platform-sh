@@ -11,12 +11,12 @@
             "version": "1.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/Proofo/proofo-magento-2.git",
                 "reference": "b25831077338cac895d7403e03938606a2fadfb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/b25831077338cac895d7403e03938606a2fadfb6",
+                "url": "https://api.github.com/repos/Proofo/proofo-magento-2/zipball/b25831077338cac895d7403e03938606a2fadfb6",
                 "reference": "b25831077338cac895d7403e03938606a2fadfb6",
                 "shasum": ""
             },
@@ -184,12 +184,12 @@
             "version": "0.9.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/brick/math.git",
                 "reference": "ca57d18f028f84f777b2168cd1911b0dee2343ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/ca57d18f028f84f777b2168cd1911b0dee2343ae",
+                "url": "https://api.github.com/repos/brick/math/zipball/ca57d18f028f84f777b2168cd1911b0dee2343ae",
                 "reference": "ca57d18f028f84f777b2168cd1911b0dee2343ae",
                 "shasum": ""
             },
@@ -223,10 +223,6 @@
                 "brick",
                 "math"
             ],
-            "support": {
-                "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.9.3"
-            },
             "funding": [
                 {
                     "url": "https://github.com/BenMorel",
@@ -289,12 +285,12 @@
             "version": "v1.4.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/colinmollenhour/Cm_Cache_Backend_File.git",
                 "reference": "03c7d4c0f43b2de1b559a3527d18ff697d306544"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/03c7d4c0f43b2de1b559a3527d18ff697d306544",
+                "url": "https://api.github.com/repos/colinmollenhour/Cm_Cache_Backend_File/zipball/03c7d4c0f43b2de1b559a3527d18ff697d306544",
                 "reference": "03c7d4c0f43b2de1b559a3527d18ff697d306544",
                 "shasum": ""
             },
@@ -315,24 +311,15 @@
             ],
             "description": "The stock Zend_Cache_Backend_File backend has extremely poor performance for cleaning by tags making it become unusable as the number of cached items increases. This backend makes many changes resulting in a huge performance boost, especially for tag cleaning.",
             "homepage": "https://github.com/colinmollenhour/Cm_Cache_Backend_File",
-            "support": {
-                "issues": "https://github.com/colinmollenhour/Cm_Cache_Backend_File/issues",
-                "source": "https://github.com/colinmollenhour/Cm_Cache_Backend_File/tree/master"
-            },
             "time": "2019-04-18T21:54:31+00:00"
         },
         {
             "name": "colinmollenhour/cache-backend-redis",
             "version": "1.14.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
-                "reference": "a6156aef942a4e4de0add34a73d066a9458cefc6"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/a6156aef942a4e4de0add34a73d066a9458cefc6",
-                "reference": "a6156aef942a4e4de0add34a73d066a9458cefc6",
+                "url": "https://api.github.com/repos/colinmollenhour/Cm_Cache_Backend_Redis/zipball/0b042d26b8c2aa093485bdc4bb03a0113a03778d",
+                "reference": "0b042d26b8c2aa093485bdc4bb03a0113a03778d",
                 "shasum": ""
             },
             "require": {
@@ -355,24 +342,15 @@
             ],
             "description": "Zend_Cache backend using Redis with full support for tags.",
             "homepage": "https://github.com/colinmollenhour/Cm_Cache_Backend_Redis",
-            "support": {
-                "issues": "https://github.com/colinmollenhour/Cm_Cache_Backend_Redis/issues",
-                "source": "https://github.com/colinmollenhour/Cm_Cache_Backend_Redis/tree/1.14.2"
-            },
             "time": "2021-03-02T18:36:21+00:00"
         },
         {
             "name": "colinmollenhour/credis",
             "version": "v1.12.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
-                "reference": "a6156aef942a4e4de0add34a73d066a9458cefc6"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/a6156aef942a4e4de0add34a73d066a9458cefc6",
-                "reference": "a6156aef942a4e4de0add34a73d066a9458cefc6",
+                "url": "https://api.github.com/repos/colinmollenhour/credis/zipball/c27faa11724229986335c23f4b6d0f1d8d6547fb",
+                "reference": "c27faa11724229986335c23f4b6d0f1d8d6547fb",
                 "shasum": ""
             },
             "require": {
@@ -399,10 +377,6 @@
             ],
             "description": "Credis is a lightweight interface to the Redis key-value store which wraps the phpredis library when available for better performance.",
             "homepage": "https://github.com/colinmollenhour/credis",
-            "support": {
-                "issues": "https://github.com/colinmollenhour/credis/issues",
-                "source": "https://github.com/colinmollenhour/credis/tree/v1.12.1"
-            },
             "time": "2020-11-06T16:09:14+00:00"
         },
         {
@@ -615,12 +589,12 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/composer/metadata-minifier.git",
                 "reference": "c549d23829536f0d0e984aaabbf02af91f443207"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/c549d23829536f0d0e984aaabbf02af91f443207",
+                "url": "https://api.github.com/repos/composer/metadata-minifier/zipball/c549d23829536f0d0e984aaabbf02af91f443207",
                 "reference": "c549d23829536f0d0e984aaabbf02af91f443207",
                 "shasum": ""
             },
@@ -659,10 +633,6 @@
                 "composer",
                 "compression"
             ],
-            "support": {
-                "issues": "https://github.com/composer/metadata-minifier/issues",
-                "source": "https://github.com/composer/metadata-minifier/tree/1.0.0"
-            },
             "funding": [
                 {
                     "url": "https://packagist.com",
@@ -963,12 +933,12 @@
             "version": "v7.16.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/elastic/elasticsearch-php.git",
                 "reference": "f87f93f71f564d4bbdc5f008d296d1c37d828e10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/f87f93f71f564d4bbdc5f008d296d1c37d828e10",
+                "url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/f87f93f71f564d4bbdc5f008d296d1c37d828e10",
                 "reference": "f87f93f71f564d4bbdc5f008d296d1c37d828e10",
                 "shasum": ""
             },
@@ -1019,10 +989,6 @@
                 "elasticsearch",
                 "search"
             ],
-            "support": {
-                "issues": "https://github.com/elastic/elasticsearch-php/issues",
-                "source": "https://github.com/elastic/elasticsearch-php/tree/v7.16.0"
-            },
             "time": "2021-12-09T20:04:01+00:00"
         },
         {
@@ -1206,12 +1172,12 @@
             "version": "1.0.10",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/Goomento/Core.git",
                 "reference": "fc08c47d636a38d905b7781e5d7f808d70c38c2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/fc08c47d636a38d905b7781e5d7f808d70c38c2a",
+                "url": "https://api.github.com/repos/Goomento/Core/zipball/fc08c47d636a38d905b7781e5d7f808d70c38c2a",
                 "reference": "fc08c47d636a38d905b7781e5d7f808d70c38c2a",
                 "shasum": ""
             },
@@ -1915,12 +1881,12 @@
             "version": "3.7.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/laminas/laminas-config.git",
                 "reference": "e43d13dcfc273d4392812eb395ce636f73f34dfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/e43d13dcfc273d4392812eb395ce636f73f34dfd",
+                "url": "https://api.github.com/repos/laminas/laminas-config/zipball/e43d13dcfc273d4392812eb395ce636f73f34dfd",
                 "reference": "e43d13dcfc273d4392812eb395ce636f73f34dfd",
                 "shasum": ""
             },
@@ -1962,14 +1928,6 @@
                 "config",
                 "laminas"
             ],
-            "support": {
-                "chat": "https://laminas.dev/chat",
-                "docs": "https://docs.laminas.dev/laminas-config/",
-                "forum": "https://discourse.laminas.dev",
-                "issues": "https://github.com/laminas/laminas-config/issues",
-                "rss": "https://github.com/laminas/laminas-config/releases.atom",
-                "source": "https://github.com/laminas/laminas-config"
-            },
             "funding": [
                 {
                     "url": "https://funding.communitybridge.org/projects/laminas-project",
@@ -2164,12 +2122,12 @@
             "version": "2.9.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/laminas/laminas-escaper.git",
                 "reference": "891ad70986729e20ed2e86355fcf93c9dc238a5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/891ad70986729e20ed2e86355fcf93c9dc238a5f",
+                "url": "https://api.github.com/repos/laminas/laminas-escaper/zipball/891ad70986729e20ed2e86355fcf93c9dc238a5f",
                 "reference": "891ad70986729e20ed2e86355fcf93c9dc238a5f",
                 "shasum": ""
             },
@@ -2205,14 +2163,6 @@
                 "escaper",
                 "laminas"
             ],
-            "support": {
-                "chat": "https://laminas.dev/chat",
-                "docs": "https://docs.laminas.dev/laminas-escaper/",
-                "forum": "https://discourse.laminas.dev",
-                "issues": "https://github.com/laminas/laminas-escaper/issues",
-                "rss": "https://github.com/laminas/laminas-escaper/releases.atom",
-                "source": "https://github.com/laminas/laminas-escaper"
-            },
             "funding": [
                 {
                     "url": "https://funding.communitybridge.org/projects/laminas-project",
@@ -2414,12 +2364,12 @@
             "version": "3.3.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/laminas/laminas-json.git",
                 "reference": "9a0ce9f330b7d11e70c4acb44d67e8c4f03f437f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/9a0ce9f330b7d11e70c4acb44d67e8c4f03f437f",
+                "url": "https://api.github.com/repos/laminas/laminas-json/zipball/9a0ce9f330b7d11e70c4acb44d67e8c4f03f437f",
                 "reference": "9a0ce9f330b7d11e70c4acb44d67e8c4f03f437f",
                 "shasum": ""
             },
@@ -2454,14 +2404,6 @@
                 "json",
                 "laminas"
             ],
-            "support": {
-                "chat": "https://laminas.dev/chat",
-                "docs": "https://docs.laminas.dev/laminas-json/",
-                "forum": "https://discourse.laminas.dev",
-                "issues": "https://github.com/laminas/laminas-json/issues",
-                "rss": "https://github.com/laminas/laminas-json/releases.atom",
-                "source": "https://github.com/laminas/laminas-json"
-            },
             "funding": [
                 {
                     "url": "https://funding.communitybridge.org/projects/laminas-project",
@@ -2475,12 +2417,12 @@
             "version": "2.8.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/laminas/laminas-loader.git",
                 "reference": "d0589ec9dd48365fd95ad10d1c906efd7711c16b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/d0589ec9dd48365fd95ad10d1c906efd7711c16b",
+                "url": "https://api.github.com/repos/laminas/laminas-loader/zipball/d0589ec9dd48365fd95ad10d1c906efd7711c16b",
                 "reference": "d0589ec9dd48365fd95ad10d1c906efd7711c16b",
                 "shasum": ""
             },
@@ -2510,14 +2452,6 @@
                 "laminas",
                 "loader"
             ],
-            "support": {
-                "chat": "https://laminas.dev/chat",
-                "docs": "https://docs.laminas.dev/laminas-loader/",
-                "forum": "https://discourse.laminas.dev",
-                "issues": "https://github.com/laminas/laminas-loader/issues",
-                "rss": "https://github.com/laminas/laminas-loader/releases.atom",
-                "source": "https://github.com/laminas/laminas-loader"
-            },
             "funding": [
                 {
                     "url": "https://funding.communitybridge.org/projects/laminas-project",
@@ -3125,12 +3059,12 @@
             "version": "2.10.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/laminas/laminas-soap.git",
                 "reference": "b1245a09b523485060407f73a0058fb871d2c656"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/b1245a09b523485060407f73a0058fb871d2c656",
+                "url": "https://api.github.com/repos/laminas/laminas-soap/zipball/b1245a09b523485060407f73a0058fb871d2c656",
                 "reference": "b1245a09b523485060407f73a0058fb871d2c656",
                 "shasum": ""
             },
@@ -3172,14 +3106,6 @@
                 "laminas",
                 "soap"
             ],
-            "support": {
-                "chat": "https://laminas.dev/chat",
-                "docs": "https://docs.laminas.dev/laminas-soap/",
-                "forum": "https://discourse.laminas.dev",
-                "issues": "https://github.com/laminas/laminas-soap/issues",
-                "rss": "https://github.com/laminas/laminas-soap/releases.atom",
-                "source": "https://github.com/laminas/laminas-soap"
-            },
             "funding": [
                 {
                     "url": "https://funding.communitybridge.org/projects/laminas-project",
@@ -3245,12 +3171,12 @@
             "version": "2.9.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/laminas/laminas-text.git",
                 "reference": "8879e75d03e09b0d6787e6680cfa255afd4645a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/8879e75d03e09b0d6787e6680cfa255afd4645a7",
+                "url": "https://api.github.com/repos/laminas/laminas-text/zipball/8879e75d03e09b0d6787e6680cfa255afd4645a7",
                 "reference": "8879e75d03e09b0d6787e6680cfa255afd4645a7",
                 "shasum": ""
             },
@@ -3282,14 +3208,6 @@
                 "laminas",
                 "text"
             ],
-            "support": {
-                "chat": "https://laminas.dev/chat",
-                "docs": "https://docs.laminas.dev/laminas-text/",
-                "forum": "https://discourse.laminas.dev",
-                "issues": "https://github.com/laminas/laminas-text/issues",
-                "rss": "https://github.com/laminas/laminas-text/releases.atom",
-                "source": "https://github.com/laminas/laminas-text"
-            },
             "funding": [
                 {
                     "url": "https://funding.communitybridge.org/projects/laminas-project",
@@ -3303,12 +3221,12 @@
             "version": "2.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/laminas/laminas-uri.git",
                 "reference": "7e837dc15c8fd3949df7d1213246fd7c8640032b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/7e837dc15c8fd3949df7d1213246fd7c8640032b",
+                "url": "https://api.github.com/repos/laminas/laminas-uri/zipball/7e837dc15c8fd3949df7d1213246fd7c8640032b",
                 "reference": "7e837dc15c8fd3949df7d1213246fd7c8640032b",
                 "shasum": ""
             },
@@ -3340,14 +3258,6 @@
                 "laminas",
                 "uri"
             ],
-            "support": {
-                "chat": "https://laminas.dev/chat",
-                "docs": "https://docs.laminas.dev/laminas-uri/",
-                "forum": "https://discourse.laminas.dev",
-                "issues": "https://github.com/laminas/laminas-uri/issues",
-                "rss": "https://github.com/laminas/laminas-uri/releases.atom",
-                "source": "https://github.com/laminas/laminas-uri"
-            },
             "funding": [
                 {
                     "url": "https://funding.communitybridge.org/projects/laminas-project",
@@ -3439,12 +3349,12 @@
             "version": "2.14.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/laminas/laminas-view.git",
                 "reference": "ced4133462b917c62d1efc26f982a62b5e319b4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/ced4133462b917c62d1efc26f982a62b5e319b4b",
+                "url": "https://api.github.com/repos/laminas/laminas-view/zipball/ced4133462b917c62d1efc26f982a62b5e319b4b",
                 "reference": "ced4133462b917c62d1efc26f982a62b5e319b4b",
                 "shasum": ""
             },
@@ -3522,14 +3432,6 @@
                 "laminas",
                 "view"
             ],
-            "support": {
-                "chat": "https://laminas.dev/chat",
-                "docs": "https://docs.laminas.dev/laminas-view/",
-                "forum": "https://discourse.laminas.dev",
-                "issues": "https://github.com/laminas/laminas-view/issues",
-                "rss": "https://github.com/laminas/laminas-view/releases.atom",
-                "source": "https://github.com/laminas/laminas-view"
-            },
             "funding": [
                 {
                     "url": "https://funding.communitybridge.org/projects/laminas-project",
@@ -3599,12 +3501,12 @@
             "version": "2.3.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/thephpleague/flysystem.git",
                 "reference": "4b6da3e75b5e8eee53bb5ee46ded15a532843f80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/4b6da3e75b5e8eee53bb5ee46ded15a532843f80",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/4b6da3e75b5e8eee53bb5ee46ded15a532843f80",
                 "reference": "4b6da3e75b5e8eee53bb5ee46ded15a532843f80",
                 "shasum": ""
             },
@@ -3659,10 +3561,6 @@
                 "sftp",
                 "storage"
             ],
-            "support": {
-                "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/2.3.2"
-            },
             "funding": [
                 {
                     "url": "https://offset.earth/frankdejonge",
@@ -3801,12 +3699,12 @@
             "version": "1.8.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/magento/composer.git",
                 "reference": "244c03cf437f6ae6de1650421f30e8a4fa70a02c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/244c03cf437f6ae6de1650421f30e8a4fa70a02c",
+                "url": "https://api.github.com/repos/magento/composer/zipball/244c03cf437f6ae6de1650421f30e8a4fa70a02c",
                 "reference": "244c03cf437f6ae6de1650421f30e8a4fa70a02c",
                 "shasum": ""
             },
@@ -3830,10 +3728,6 @@
                 "AFL-3.0"
             ],
             "description": "Magento composer library helps to instantiate Composer application and run composer commands.",
-            "support": {
-                "issues": "https://github.com/magento/composer/issues",
-                "source": "https://github.com/magento/composer/tree/1.8.0"
-            },
             "time": "2022-01-14T01:29:51+00:00"
         },
         {
@@ -4003,12 +3897,12 @@
             "version": "4.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/mageplaza/magento-2-product-slider.git",
                 "reference": "2aa5b9293b97f22f65d4b4672d1d1dab23667f5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/2aa5b9293b97f22f65d4b4672d1d1dab23667f5f",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-product-slider/zipball/2aa5b9293b97f22f65d4b4672d1d1dab23667f5f",
                 "reference": "2aa5b9293b97f22f65d4b4672d1d1dab23667f5f",
                 "shasum": ""
             },
@@ -4044,13 +3938,13 @@
             "version": "4.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
-                "reference": "b75be26681ae90824cde8f8df785981f293667e1"
+                "url": "https://github.com/mageplaza/magento-2-banner-slider.git",
+                "reference": "160753a3ef9a945374b4a8a01372ca7581528c84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/b75be26681ae90824cde8f8df785981f293667e1",
-                "reference": "b75be26681ae90824cde8f8df785981f293667e1",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-banner-slider/zipball/160753a3ef9a945374b4a8a01372ca7581528c84",
+                "reference": "160753a3ef9a945374b4a8a01372ca7581528c84",
                 "shasum": ""
             },
             "require": {
@@ -4085,12 +3979,12 @@
             "version": "1.5.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/mageplaza/module-core.git",
                 "reference": "343eea86ded45f31e70768d8e0994e52d4a63a68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/343eea86ded45f31e70768d8e0994e52d4a63a68",
+                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/343eea86ded45f31e70768d8e0994e52d4a63a68",
                 "reference": "343eea86ded45f31e70768d8e0994e52d4a63a68",
                 "shasum": ""
             },
@@ -4123,13 +4017,13 @@
             "version": "4.7.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
-                "reference": "aa70e813a6ad3d1558fc927863d47309b4c23e69"
+                "url": "https://github.com/mageplaza/magento-2-smtp.git",
+                "reference": "429f4da27b58c9bd43e92a57c9f340543b7993db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/aa70e813a6ad3d1558fc927863d47309b4c23e69",
-                "reference": "aa70e813a6ad3d1558fc927863d47309b4c23e69",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-smtp/zipball/429f4da27b58c9bd43e92a57c9f340543b7993db",
+                "reference": "429f4da27b58c9bd43e92a57c9f340543b7993db",
                 "shasum": ""
             },
             "require": {
@@ -4282,12 +4176,12 @@
             "version": "2.6.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/jmespath/jmespath.php.git",
                 "reference": "9b87907a81b87bc76d19a7fb2d61e61486ee9edb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/9b87907a81b87bc76d19a7fb2d61e61486ee9edb",
+                "url": "https://api.github.com/repos/jmespath/jmespath.php/zipball/9b87907a81b87bc76d19a7fb2d61e61486ee9edb",
                 "reference": "9b87907a81b87bc76d19a7fb2d61e61486ee9edb",
                 "shasum": ""
             },
@@ -4309,12 +4203,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "JmesPath\\": "src/"
-                },
                 "files": [
                     "src/JmesPath.php"
-                ]
+                ],
+                "psr-4": {
+                    "JmesPath\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4332,10 +4226,6 @@
                 "json",
                 "jsonpath"
             ],
-            "support": {
-                "issues": "https://github.com/jmespath/jmespath.php/issues",
-                "source": "https://github.com/jmespath/jmespath.php/tree/2.6.1"
-            },
             "time": "2021-06-14T00:11:39+00:00"
         },
         {
@@ -4457,12 +4347,12 @@
             "version": "v9.99.100",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/paragonie/random_compat.git",
                 "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/996434e5492cb4c3edcb9168db6fbb1359ef965a",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/996434e5492cb4c3edcb9168db6fbb1359ef965a",
                 "reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
                 "shasum": ""
             },
@@ -4495,11 +4385,6 @@
                 "pseudorandom",
                 "random"
             ],
-            "support": {
-                "email": "info@paragonie.com",
-                "issues": "https://github.com/paragonie/random_compat/issues",
-                "source": "https://github.com/paragonie/random_compat"
-            },
             "time": "2020-10-15T08:29:30+00:00"
         },
         {
@@ -4507,12 +4392,12 @@
             "version": "v6.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/MyIntervals/emogrifier.git",
                 "reference": "aa72d5407efac118f3896bcb995a2cba793df0ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/aa72d5407efac118f3896bcb995a2cba793df0ae",
+                "url": "https://api.github.com/repos/MyIntervals/emogrifier/zipball/aa72d5407efac118f3896bcb995a2cba793df0ae",
                 "reference": "aa72d5407efac118f3896bcb995a2cba793df0ae",
                 "shasum": ""
             },
@@ -4574,10 +4459,6 @@
                 "email",
                 "pre-processing"
             ],
-            "support": {
-                "issues": "https://github.com/MyIntervals/emogrifier/issues",
-                "source": "https://github.com/MyIntervals/emogrifier"
-            },
             "time": "2021-09-16T16:22:04+00:00"
         },
         {
@@ -4831,12 +4712,12 @@
             "version": "1.1.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/php-fig/container.git",
                 "reference": "513e0666f7216c7459170d56df27dfcefe1689ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/513e0666f7216c7459170d56df27dfcefe1689ea",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/513e0666f7216c7459170d56df27dfcefe1689ea",
                 "reference": "513e0666f7216c7459170d56df27dfcefe1689ea",
                 "shasum": ""
             },
@@ -4868,10 +4749,6 @@
                 "container-interop",
                 "psr"
             ],
-            "support": {
-                "issues": "https://github.com/php-fig/container/issues",
-                "source": "https://github.com/php-fig/container/tree/1.1.2"
-            },
             "time": "2021-11-05T16:50:12+00:00"
         },
         {
@@ -4879,12 +4756,12 @@
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/php-fig/event-dispatcher.git",
                 "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0",
+                "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0",
                 "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
                 "shasum": ""
             },
@@ -4918,10 +4795,6 @@
                 "psr",
                 "psr-14"
             ],
-            "support": {
-                "issues": "https://github.com/php-fig/event-dispatcher/issues",
-                "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
-            },
             "time": "2019-01-08T18:20:26+00:00"
         },
         {
@@ -4929,12 +4802,12 @@
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/php-fig/http-client.git",
                 "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
                 "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
                 "shasum": ""
             },
@@ -4971,9 +4844,6 @@
                 "psr",
                 "psr-18"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/http-client/tree/master"
-            },
             "time": "2020-06-29T06:28:15+00:00"
         },
         {
@@ -4981,12 +4851,12 @@
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/php-fig/http-factory.git",
                 "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
                 "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
                 "shasum": ""
             },
@@ -5026,9 +4896,6 @@
                 "request",
                 "response"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/http-factory/tree/master"
-            },
             "time": "2019-04-30T12:38:16+00:00"
         },
         {
@@ -5036,12 +4903,12 @@
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/php-fig/http-message.git",
                 "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "shasum": ""
             },
@@ -5079,9 +4946,6 @@
                 "request",
                 "response"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/http-message/tree/master"
-            },
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
@@ -5089,12 +4953,12 @@
             "version": "1.1.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/php-fig/log.git",
                 "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
                 "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
                 "shasum": ""
             },
@@ -5129,9 +4993,6 @@
                 "psr",
                 "psr-3"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/log/tree/1.1.4"
-            },
             "time": "2021-05-03T11:20:27+00:00"
         },
         {
@@ -5139,12 +5000,12 @@
             "version": "3.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/ralouphie/getallheaders.git",
                 "reference": "120b605dfeb996808c31b6477290a714d356e822"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/120b605dfeb996808c31b6477290a714d356e822",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
                 "reference": "120b605dfeb996808c31b6477290a714d356e822",
                 "shasum": ""
             },
@@ -5172,10 +5033,6 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
-            "support": {
-                "issues": "https://github.com/ralouphie/getallheaders/issues",
-                "source": "https://github.com/ralouphie/getallheaders/tree/develop"
-            },
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
@@ -5269,12 +5126,12 @@
             "version": "4.2.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/ramsey/uuid.git",
                 "reference": "fc9bb7fb5388691fd7373cd44dcb4d63bbcf24df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/fc9bb7fb5388691fd7373cd44dcb4d63bbcf24df",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/fc9bb7fb5388691fd7373cd44dcb4d63bbcf24df",
                 "reference": "fc9bb7fb5388691fd7373cd44dcb4d63bbcf24df",
                 "shasum": ""
             },
@@ -5329,12 +5186,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Ramsey\\Uuid\\": "src/"
-                },
                 "files": [
                     "src/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Ramsey\\Uuid\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5346,10 +5203,6 @@
                 "identifier",
                 "uuid"
             ],
-            "support": {
-                "issues": "https://github.com/ramsey/uuid/issues",
-                "source": "https://github.com/ramsey/uuid/tree/4.2.3"
-            },
             "funding": [
                 {
                     "url": "https://github.com/ramsey",
@@ -5439,12 +5292,12 @@
             "version": "8.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sabberworm/PHP-CSS-Parser.git",
                 "reference": "e41d2140031d533348b2192a83f02d8dd8a71d30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/e41d2140031d533348b2192a83f02d8dd8a71d30",
+                "url": "https://api.github.com/repos/sabberworm/PHP-CSS-Parser/zipball/e41d2140031d533348b2192a83f02d8dd8a71d30",
                 "reference": "e41d2140031d533348b2192a83f02d8dd8a71d30",
                 "shasum": ""
             },
@@ -5481,10 +5334,6 @@
                 "parser",
                 "stylesheet"
             ],
-            "support": {
-                "issues": "https://github.com/sabberworm/PHP-CSS-Parser/issues",
-                "source": "https://github.com/sabberworm/PHP-CSS-Parser/tree/8.4.0"
-            },
             "time": "2021-12-11T13:40:54+00:00"
         },
         {
@@ -5596,12 +5445,12 @@
             "version": "v6.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/Spomky-Labs/aes-key-wrap.git",
                 "reference": "97388255a37ad6fb1ed332d07e61fa2b7bb62e0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/97388255a37ad6fb1ed332d07e61fa2b7bb62e0d",
+                "url": "https://api.github.com/repos/Spomky-Labs/aes-key-wrap/zipball/97388255a37ad6fb1ed332d07e61fa2b7bb62e0d",
                 "reference": "97388255a37ad6fb1ed332d07e61fa2b7bb62e0d",
                 "shasum": ""
             },
@@ -5655,10 +5504,6 @@
                 "padding",
                 "wrap"
             ],
-            "support": {
-                "issues": "https://github.com/Spomky-Labs/aes-key-wrap/issues",
-                "source": "https://github.com/Spomky-Labs/aes-key-wrap/tree/v6.0.0"
-            },
             "time": "2020-08-01T14:07:55+00:00"
         },
         {
@@ -5666,12 +5511,12 @@
             "version": "v2.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/Spomky-Labs/base64url.git",
                 "reference": "7752ce931ec285da4ed1f4c5aa27e45e097be61d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/7752ce931ec285da4ed1f4c5aa27e45e097be61d",
+                "url": "https://api.github.com/repos/Spomky-Labs/base64url/zipball/7752ce931ec285da4ed1f4c5aa27e45e097be61d",
                 "reference": "7752ce931ec285da4ed1f4c5aa27e45e097be61d",
                 "shasum": ""
             },
@@ -5710,10 +5555,6 @@
                 "safe",
                 "url"
             ],
-            "support": {
-                "issues": "https://github.com/Spomky-Labs/base64url/issues",
-                "source": "https://github.com/Spomky-Labs/base64url/tree/v2.0.4"
-            },
             "funding": [
                 {
                     "url": "https://github.com/Spomky",
@@ -6664,13 +6505,13 @@
             "version": "v4.4.50",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "41036e8af66e727c4587012f0366b7f0576a99da"
+                "url": "https://github.com/symfony/http-kernel.git",
+                "reference": "aa6df6c045f034aa13ac752fc234bb300b9488ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/41036e8af66e727c4587012f0366b7f0576a99da",
-                "reference": "41036e8af66e727c4587012f0366b7f0576a99da",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/aa6df6c045f034aa13ac752fc234bb300b9488ef",
+                "reference": "aa6df6c045f034aa13ac752fc234bb300b9488ef",
                 "shasum": ""
             },
             "require": {
@@ -7619,12 +7460,12 @@
             "version": "v1.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/tedious/JShrink.git",
                 "reference": "0513ba1407b1f235518a939455855e6952a48bbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/0513ba1407b1f235518a939455855e6952a48bbc",
+                "url": "https://api.github.com/repos/tedious/JShrink/zipball/0513ba1407b1f235518a939455855e6952a48bbc",
                 "reference": "0513ba1407b1f235518a939455855e6952a48bbc",
                 "shasum": ""
             },
@@ -7658,10 +7499,6 @@
                 "javascript",
                 "minifier"
             ],
-            "support": {
-                "issues": "https://github.com/tedious/JShrink/issues",
-                "source": "https://github.com/tedious/JShrink/tree/v1.4.0"
-            },
             "funding": [
                 {
                     "url": "https://tidelift.com/funding/github/packagist/tedivm/jshrink",
@@ -7675,12 +7512,12 @@
             "version": "v1.3.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/thecodingmachine/safe.git",
                 "reference": "a8ab0876305a4cdaef31b2350fcb9811b5608dbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/a8ab0876305a4cdaef31b2350fcb9811b5608dbc",
+                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/a8ab0876305a4cdaef31b2350fcb9811b5608dbc",
                 "reference": "a8ab0876305a4cdaef31b2350fcb9811b5608dbc",
                 "shasum": ""
             },
@@ -7699,13 +7536,6 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Safe\\": [
-                        "lib/",
-                        "deprecated/",
-                        "generated/"
-                    ]
-                },
                 "files": [
                     "deprecated/apc.php",
                     "deprecated/libevent.php",
@@ -7796,31 +7626,29 @@
                     "generated/yaz.php",
                     "generated/zip.php",
                     "generated/zlib.php"
-                ]
+                ],
+                "psr-4": {
+                    "Safe\\": [
+                        "lib/",
+                        "deprecated/",
+                        "generated/"
+                    ]
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "PHP core functions that throw exceptions instead of returning FALSE on error",
-            "support": {
-                "issues": "https://github.com/thecodingmachine/safe/issues",
-                "source": "https://github.com/thecodingmachine/safe/tree/v1.3.3"
-            },
             "time": "2020-10-28T17:51:34+00:00"
         },
         {
             "name": "tubalmartin/cssmin",
             "version": "v4.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
-                "reference": "a6156aef942a4e4de0add34a73d066a9458cefc6"
-            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/a6156aef942a4e4de0add34a73d066a9458cefc6",
-                "reference": "a6156aef942a4e4de0add34a73d066a9458cefc6",
+                "url": "https://api.github.com/repos/tubalmartin/YUI-CSS-compressor-PHP-port/zipball/3cbf557f4079d83a06f9c3ff9b957c022d7805cf",
+                "reference": "3cbf557f4079d83a06f9c3ff9b957c022d7805cf",
                 "shasum": ""
             },
             "require": {
@@ -7860,10 +7688,6 @@
                 "minify",
                 "yui"
             ],
-            "support": {
-                "issues": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port/issues",
-                "source": "https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port"
-            },
             "time": "2018-01-15T15:26:51+00:00"
         },
         {
@@ -7871,12 +7695,12 @@
             "version": "v2.2.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/web-token/jwt-framework.git",
                 "reference": "643cced197e32471418bd89e7a44b69fd04eb9de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/643cced197e32471418bd89e7a44b69fd04eb9de",
+                "url": "https://api.github.com/repos/web-token/jwt-framework/zipball/643cced197e32471418bd89e7a44b69fd04eb9de",
                 "reference": "643cced197e32471418bd89e7a44b69fd04eb9de",
                 "shasum": ""
             },
@@ -7969,6 +7793,9 @@
             "autoload": {
                 "psr-4": {
                     "Jose\\": "src/",
+                    "Jose\\Component\\Core\\Util\\Ecc\\": [
+                        "src/Ecc"
+                    ],
                     "Jose\\Component\\Signature\\Algorithm\\": [
                         "src/SignatureAlgorithm/ECDSA",
                         "src/SignatureAlgorithm/EdDSA",
@@ -7976,9 +7803,6 @@
                         "src/SignatureAlgorithm/None",
                         "src/SignatureAlgorithm/RSA",
                         "src/SignatureAlgorithm/Experimental"
-                    ],
-                    "Jose\\Component\\Core\\Util\\Ecc\\": [
-                        "src/Ecc"
                     ],
                     "Jose\\Component\\Encryption\\Algorithm\\": [
                         "src/EncryptionAlgorithm/Experimental"
@@ -8031,10 +7855,6 @@
                 "jwt",
                 "symfony"
             ],
-            "support": {
-                "issues": "https://github.com/web-token/jwt-framework/issues",
-                "source": "https://github.com/web-token/jwt-framework/tree/v2.2.11"
-            },
             "funding": [
                 {
                     "url": "https://github.com/Spomky",
@@ -8048,12 +7868,12 @@
             "version": "2.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/webimpress/safe-writer.git",
                 "reference": "9d37cc8bee20f7cb2f58f6e23e05097eab5072e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/9d37cc8bee20f7cb2f58f6e23e05097eab5072e6",
+                "url": "https://api.github.com/repos/webimpress/safe-writer/zipball/9d37cc8bee20f7cb2f58f6e23e05097eab5072e6",
                 "reference": "9d37cc8bee20f7cb2f58f6e23e05097eab5072e6",
                 "shasum": ""
             },
@@ -8090,10 +7910,6 @@
                 "safe writer",
                 "webimpress"
             ],
-            "support": {
-                "issues": "https://github.com/webimpress/safe-writer/issues",
-                "source": "https://github.com/webimpress/safe-writer/tree/2.2.0"
-            },
             "funding": [
                 {
                     "url": "https://github.com/michalbundyra",
@@ -8345,11 +8161,6 @@
                 "steps",
                 "testing"
             ],
-            "support": {
-                "email": "allure@qameta.io",
-                "issues": "https://github.com/allure-framework/allure-codeception/issues",
-                "source": "https://github.com/allure-framework/allure-codeception"
-            },
             "time": "2021-06-04T13:24:36+00:00"
         },
         {
@@ -8357,12 +8168,12 @@
             "version": "1.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/allure-framework/allure-php-api.git",
                 "reference": "50507f482d490f114054f2281cca487db47fa2bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/50507f482d490f114054f2281cca487db47fa2bd",
+                "url": "https://api.github.com/repos/allure-framework/allure-php-api/zipball/50507f482d490f114054f2281cca487db47fa2bd",
                 "reference": "50507f482d490f114054f2281cca487db47fa2bd",
                 "shasum": ""
             },
@@ -8403,11 +8214,6 @@
                 "php",
                 "report"
             ],
-            "support": {
-                "email": "allure@qameta.io",
-                "issues": "https://github.com/allure-framework/allure-php-api/issues",
-                "source": "https://github.com/allure-framework/allure-php-api"
-            },
             "time": "2021-11-15T13:15:20+00:00"
         },
         {
@@ -8415,12 +8221,12 @@
             "version": "1.5.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/allure-framework/allure-phpunit.git",
                 "reference": "5584e7e4d7a232bbf7dd92d0cabf143147f72e9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/5584e7e4d7a232bbf7dd92d0cabf143147f72e9e",
+                "url": "https://api.github.com/repos/allure-framework/allure-phpunit/zipball/5584e7e4d7a232bbf7dd92d0cabf143147f72e9e",
                 "reference": "5584e7e4d7a232bbf7dd92d0cabf143147f72e9e",
                 "shasum": ""
             },
@@ -8461,11 +8267,6 @@
                 "steps",
                 "testing"
             ],
-            "support": {
-                "email": "allure@qameta.io",
-                "issues": "https://github.com/allure-framework/allure-phpunit/issues",
-                "source": "https://github.com/allure-framework/allure-phpunit"
-            },
             "time": "2021-09-14T10:06:07+00:00"
         },
         {
@@ -8473,12 +8274,12 @@
             "version": "v3.3.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/beberlei/assert.git",
                 "reference": "cb70015c04be1baee6f5f5c953703347c0ac1655"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/cb70015c04be1baee6f5f5c953703347c0ac1655",
+                "url": "https://api.github.com/repos/beberlei/assert/zipball/cb70015c04be1baee6f5f5c953703347c0ac1655",
                 "reference": "cb70015c04be1baee6f5f5c953703347c0ac1655",
                 "shasum": ""
             },
@@ -8500,12 +8301,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "Assert\\": "lib/Assert"
-                },
                 "files": [
                     "lib/Assert/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Assert\\": "lib/Assert"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -8529,10 +8330,6 @@
                 "assertion",
                 "validation"
             ],
-            "support": {
-                "issues": "https://github.com/beberlei/assert/issues",
-                "source": "https://github.com/beberlei/assert/tree/v3.3.2"
-            },
             "time": "2021-12-16T21:41:27+00:00"
         },
         {
@@ -8540,12 +8337,12 @@
             "version": "v4.9.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/Behat/Gherkin.git",
                 "reference": "0bc8d1e30e96183e4f36db9dc79caead300beff4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/0bc8d1e30e96183e4f36db9dc79caead300beff4",
+                "url": "https://api.github.com/repos/Behat/Gherkin/zipball/0bc8d1e30e96183e4f36db9dc79caead300beff4",
                 "reference": "0bc8d1e30e96183e4f36db9dc79caead300beff4",
                 "shasum": ""
             },
@@ -8592,10 +8389,6 @@
                 "gherkin",
                 "parser"
             ],
-            "support": {
-                "issues": "https://github.com/Behat/Gherkin/issues",
-                "source": "https://github.com/Behat/Gherkin/tree/v4.9.0"
-            },
             "time": "2021-10-12T13:05:09+00:00"
         },
         {
@@ -8697,12 +8490,12 @@
             "version": "1.13.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/Codeception/lib-asserts.git",
                 "reference": "184231d5eab66bc69afd6b9429344d80c67a33b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/184231d5eab66bc69afd6b9429344d80c67a33b6",
+                "url": "https://api.github.com/repos/Codeception/lib-asserts/zipball/184231d5eab66bc69afd6b9429344d80c67a33b6",
                 "reference": "184231d5eab66bc69afd6b9429344d80c67a33b6",
                 "shasum": ""
             },
@@ -8740,10 +8533,6 @@
             "keywords": [
                 "codeception"
             ],
-            "support": {
-                "issues": "https://github.com/Codeception/lib-asserts/issues",
-                "source": "https://github.com/Codeception/lib-asserts/tree/1.13.2"
-            },
             "time": "2020-10-21T16:26:20+00:00"
         },
         {
@@ -8751,12 +8540,12 @@
             "version": "1.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/Codeception/module-asserts.git",
                 "reference": "59374f2fef0cabb9e8ddb53277e85cdca74328de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/59374f2fef0cabb9e8ddb53277e85cdca74328de",
+                "url": "https://api.github.com/repos/Codeception/module-asserts/zipball/59374f2fef0cabb9e8ddb53277e85cdca74328de",
                 "reference": "59374f2fef0cabb9e8ddb53277e85cdca74328de",
                 "shasum": ""
             },
@@ -8797,10 +8586,6 @@
                 "asserts",
                 "codeception"
             ],
-            "support": {
-                "issues": "https://github.com/Codeception/module-asserts/issues",
-                "source": "https://github.com/Codeception/module-asserts/tree/1.3.1"
-            },
             "time": "2020-10-21T16:48:15+00:00"
         },
         {
@@ -8808,12 +8593,12 @@
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/Codeception/module-sequence.git",
                 "reference": "b75be26681ae90824cde8f8df785981f293667e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/b75be26681ae90824cde8f8df785981f293667e1",
+                "url": "https://api.github.com/repos/Codeception/module-sequence/zipball/b75be26681ae90824cde8f8df785981f293667e1",
                 "reference": "b75be26681ae90824cde8f8df785981f293667e1",
                 "shasum": ""
             },
@@ -8841,10 +8626,6 @@
             "keywords": [
                 "codeception"
             ],
-            "support": {
-                "issues": "https://github.com/Codeception/module-sequence/issues",
-                "source": "https://github.com/Codeception/module-sequence/tree/1.0.1"
-            },
             "time": "2020-10-31T18:36:26+00:00"
         },
         {
@@ -9363,12 +9144,12 @@
             "version": "v3.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
                 "reference": "b37bf90405cec3f7a83c18e645ef748bcb87ac11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/b37bf90405cec3f7a83c18e645ef748bcb87ac11",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/b37bf90405cec3f7a83c18e645ef748bcb87ac11",
                 "reference": "b37bf90405cec3f7a83c18e645ef748bcb87ac11",
                 "shasum": ""
             },
@@ -9436,10 +9217,6 @@
                 }
             ],
             "description": "A tool to automatically fix PHP code style",
-            "support": {
-                "issues": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/issues",
-                "source": "https://github.com/FriendsOfPHP/PHP-CS-Fixer/tree/v3.3.1"
-            },
             "funding": [
                 {
                     "url": "https://github.com/keradus",
@@ -9694,12 +9471,12 @@
             "version": "v0.8.11",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/Lusitanian/PHPoAuthLib.git",
                 "reference": "fc11a53db4b66da555a6a11fce294f574a8374f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/fc11a53db4b66da555a6a11fce294f574a8374f9",
+                "url": "https://api.github.com/repos/Lusitanian/PHPoAuthLib/zipball/fc11a53db4b66da555a6a11fce294f574a8374f9",
                 "reference": "fc11a53db4b66da555a6a11fce294f574a8374f9",
                 "shasum": ""
             },
@@ -9754,10 +9531,6 @@
                 "oauth",
                 "security"
             ],
-            "support": {
-                "issues": "https://github.com/Lusitanian/PHPoAuthLib/issues",
-                "source": "https://github.com/Lusitanian/PHPoAuthLib/tree/master"
-            },
             "time": "2018-02-14T22:37:14+00:00"
         },
         {
@@ -10051,12 +9824,12 @@
             "version": "2.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/phar-io/manifest.git",
                 "reference": "97803eca37d319dfa7826cc2437fc020857acb53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/97803eca37d319dfa7826cc2437fc020857acb53",
+                "url": "https://api.github.com/repos/phar-io/manifest/zipball/97803eca37d319dfa7826cc2437fc020857acb53",
                 "reference": "97803eca37d319dfa7826cc2437fc020857acb53",
                 "shasum": ""
             },
@@ -10100,10 +9873,6 @@
                 }
             ],
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
-            "support": {
-                "issues": "https://github.com/phar-io/manifest/issues",
-                "source": "https://github.com/phar-io/manifest/tree/2.0.3"
-            },
             "time": "2021-07-20T11:28:43+00:00"
         },
         {
@@ -10158,12 +9927,12 @@
             "version": "v2.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/PHP-CS-Fixer/diff.git",
                 "reference": "29dc0d507e838c4580d018bd8b5cb412474f7ec3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/29dc0d507e838c4580d018bd8b5cb412474f7ec3",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/diff/zipball/29dc0d507e838c4580d018bd8b5cb412474f7ec3",
                 "reference": "29dc0d507e838c4580d018bd8b5cb412474f7ec3",
                 "shasum": ""
             },
@@ -10199,10 +9968,7 @@
             "keywords": [
                 "diff"
             ],
-            "support": {
-                "issues": "https://github.com/PHP-CS-Fixer/diff/issues",
-                "source": "https://github.com/PHP-CS-Fixer/diff/tree/v2.0.2"
-            },
+            "abandoned": true,
             "time": "2020-10-14T08:32:19+00:00"
         },
         {
@@ -10271,12 +10037,12 @@
             "version": "9.3.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/PHPCompatibility/PHPCompatibility.git",
                 "reference": "9fb324479acf6f39452e0655d2429cc0d3914243"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/9fb324479acf6f39452e0655d2429cc0d3914243",
+                "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibility/zipball/9fb324479acf6f39452e0655d2429cc0d3914243",
                 "reference": "9fb324479acf6f39452e0655d2429cc0d3914243",
                 "shasum": ""
             },
@@ -10322,10 +10088,6 @@
                 "phpcs",
                 "standards"
             ],
-            "support": {
-                "issues": "https://github.com/PHPCompatibility/PHPCompatibility/issues",
-                "source": "https://github.com/PHPCompatibility/PHPCompatibility"
-            },
             "time": "2019-12-27T09:44:58+00:00"
         },
         {
@@ -10452,12 +10214,12 @@
             "version": "1.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/phpstan/phpstan.git",
                 "reference": "cbe085f9fdead5b6d62e4c022ca52dc9427a10ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/cbe085f9fdead5b6d62e4c022ca52dc9427a10ee",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/cbe085f9fdead5b6d62e4c022ca52dc9427a10ee",
                 "reference": "cbe085f9fdead5b6d62e4c022ca52dc9427a10ee",
                 "shasum": ""
             },
@@ -10487,10 +10249,6 @@
                 "MIT"
             ],
             "description": "PHPStan - PHP Static Analysis Tool",
-            "support": {
-                "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.2.0"
-            },
             "funding": [
                 {
                     "url": "https://github.com/ondrejmirtes",
@@ -10589,12 +10347,12 @@
             "version": "3.0.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
                 "reference": "cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf",
                 "reference": "cf1c2e7c203ac650e352f4cc675a7021e7d1b3cf",
                 "shasum": ""
             },
@@ -10632,10 +10390,6 @@
                 "filesystem",
                 "iterator"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
-                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/3.0.6"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -10649,12 +10403,12 @@
             "version": "3.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/php-invoker.git",
                 "reference": "5a10147d0aaf65b58940a0b72f71c9ac0423cc67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/5a10147d0aaf65b58940a0b72f71c9ac0423cc67",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-invoker/zipball/5a10147d0aaf65b58940a0b72f71c9ac0423cc67",
                 "reference": "5a10147d0aaf65b58940a0b72f71c9ac0423cc67",
                 "shasum": ""
             },
@@ -10695,10 +10449,6 @@
             "keywords": [
                 "process"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/php-invoker/issues",
-                "source": "https://github.com/sebastianbergmann/php-invoker/tree/3.1.1"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -10712,12 +10462,12 @@
             "version": "2.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/php-text-template.git",
                 "reference": "5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-text-template/zipball/5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28",
                 "reference": "5da5f67fc95621df9ff4c4e5a84d6a8a2acf7c28",
                 "shasum": ""
             },
@@ -10754,10 +10504,6 @@
             "keywords": [
                 "template"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/php-text-template/issues",
-                "source": "https://github.com/sebastianbergmann/php-text-template/tree/2.0.4"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -10771,12 +10517,12 @@
             "version": "5.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/php-timer.git",
                 "reference": "5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2",
                 "reference": "5a63ce20ed1b5bf577850e2c4e87f4aa902afbd2",
                 "shasum": ""
             },
@@ -10813,10 +10559,6 @@
             "keywords": [
                 "timer"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/php-timer/issues",
-                "source": "https://github.com/sebastianbergmann/php-timer/tree/5.0.3"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -10928,12 +10670,12 @@
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/php-fig/cache.git",
                 "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/d11b50ad223250cf17b86e38383413f5a6764bf8",
+                "url": "https://api.github.com/repos/php-fig/cache/zipball/d11b50ad223250cf17b86e38383413f5a6764bf8",
                 "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8",
                 "shasum": ""
             },
@@ -10967,9 +10709,6 @@
                 "psr",
                 "psr-6"
             ],
-            "support": {
-                "source": "https://github.com/php-fig/cache/tree/master"
-            },
             "time": "2016-08-06T20:24:11+00:00"
         },
         {
@@ -11033,12 +10772,12 @@
             "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/cli-parser.git",
                 "reference": "442e7c7e687e42adc03470c7b668bc4b2402c0b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/442e7c7e687e42adc03470c7b668bc4b2402c0b2",
+                "url": "https://api.github.com/repos/sebastianbergmann/cli-parser/zipball/442e7c7e687e42adc03470c7b668bc4b2402c0b2",
                 "reference": "442e7c7e687e42adc03470c7b668bc4b2402c0b2",
                 "shasum": ""
             },
@@ -11072,10 +10811,6 @@
             ],
             "description": "Library for parsing CLI options",
             "homepage": "https://github.com/sebastianbergmann/cli-parser",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/cli-parser/issues",
-                "source": "https://github.com/sebastianbergmann/cli-parser/tree/1.0.1"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -11089,12 +10824,12 @@
             "version": "1.0.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/code-unit.git",
                 "reference": "1fc9f64c0927627ef78ba436c9b17d967e68e120"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/1fc9f64c0927627ef78ba436c9b17d967e68e120",
+                "url": "https://api.github.com/repos/sebastianbergmann/code-unit/zipball/1fc9f64c0927627ef78ba436c9b17d967e68e120",
                 "reference": "1fc9f64c0927627ef78ba436c9b17d967e68e120",
                 "shasum": ""
             },
@@ -11128,10 +10863,6 @@
             ],
             "description": "Collection of value objects that represent the PHP code units",
             "homepage": "https://github.com/sebastianbergmann/code-unit",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/code-unit/issues",
-                "source": "https://github.com/sebastianbergmann/code-unit/tree/1.0.8"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -11145,12 +10876,12 @@
             "version": "2.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/code-unit-reverse-lookup.git",
                 "reference": "ac91f01ccec49fb77bdc6fd1e548bc70f7faa3e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/ac91f01ccec49fb77bdc6fd1e548bc70f7faa3e5",
+                "url": "https://api.github.com/repos/sebastianbergmann/code-unit-reverse-lookup/zipball/ac91f01ccec49fb77bdc6fd1e548bc70f7faa3e5",
                 "reference": "ac91f01ccec49fb77bdc6fd1e548bc70f7faa3e5",
                 "shasum": ""
             },
@@ -11183,10 +10914,6 @@
             ],
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/issues",
-                "source": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/tree/2.0.3"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -11270,12 +10997,12 @@
             "version": "2.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/complexity.git",
                 "reference": "739b35e53379900cc9ac327b2147867b8b6efd88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/739b35e53379900cc9ac327b2147867b8b6efd88",
+                "url": "https://api.github.com/repos/sebastianbergmann/complexity/zipball/739b35e53379900cc9ac327b2147867b8b6efd88",
                 "reference": "739b35e53379900cc9ac327b2147867b8b6efd88",
                 "shasum": ""
             },
@@ -11310,10 +11037,6 @@
             ],
             "description": "Library for calculating the complexity of PHP code units",
             "homepage": "https://github.com/sebastianbergmann/complexity",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/complexity/issues",
-                "source": "https://github.com/sebastianbergmann/complexity/tree/2.0.2"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -11327,12 +11050,12 @@
             "version": "4.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/diff.git",
                 "reference": "3461e3fccc7cfdfc2720be910d3bd73c69be590d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/3461e3fccc7cfdfc2720be910d3bd73c69be590d",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/3461e3fccc7cfdfc2720be910d3bd73c69be590d",
                 "reference": "3461e3fccc7cfdfc2720be910d3bd73c69be590d",
                 "shasum": ""
             },
@@ -11376,10 +11099,6 @@
                 "unidiff",
                 "unified diff"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/diff/issues",
-                "source": "https://github.com/sebastianbergmann/diff/tree/4.0.4"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -11585,12 +11304,12 @@
             "version": "1.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/lines-of-code.git",
                 "reference": "c1c2e997aa3146983ed888ad08b15470a2e22ecc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/c1c2e997aa3146983ed888ad08b15470a2e22ecc",
+                "url": "https://api.github.com/repos/sebastianbergmann/lines-of-code/zipball/c1c2e997aa3146983ed888ad08b15470a2e22ecc",
                 "reference": "c1c2e997aa3146983ed888ad08b15470a2e22ecc",
                 "shasum": ""
             },
@@ -11625,10 +11344,6 @@
             ],
             "description": "Library for counting the lines of code in PHP source code",
             "homepage": "https://github.com/sebastianbergmann/lines-of-code",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/lines-of-code/issues",
-                "source": "https://github.com/sebastianbergmann/lines-of-code/tree/1.0.3"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -11642,12 +11357,12 @@
             "version": "4.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/object-enumerator.git",
                 "reference": "5c9eeac41b290a3712d88851518825ad78f45c71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/5c9eeac41b290a3712d88851518825ad78f45c71",
+                "url": "https://api.github.com/repos/sebastianbergmann/object-enumerator/zipball/5c9eeac41b290a3712d88851518825ad78f45c71",
                 "reference": "5c9eeac41b290a3712d88851518825ad78f45c71",
                 "shasum": ""
             },
@@ -11682,10 +11397,6 @@
             ],
             "description": "Traverses array structures and object graphs to enumerate all referenced objects",
             "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/object-enumerator/issues",
-                "source": "https://github.com/sebastianbergmann/object-enumerator/tree/4.0.4"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -11699,12 +11410,12 @@
             "version": "2.0.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/object-reflector.git",
                 "reference": "b4f479ebdbf63ac605d183ece17d8d7fe49c15c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/b4f479ebdbf63ac605d183ece17d8d7fe49c15c7",
+                "url": "https://api.github.com/repos/sebastianbergmann/object-reflector/zipball/b4f479ebdbf63ac605d183ece17d8d7fe49c15c7",
                 "reference": "b4f479ebdbf63ac605d183ece17d8d7fe49c15c7",
                 "shasum": ""
             },
@@ -11737,10 +11448,6 @@
             ],
             "description": "Allows reflection of object attributes, including inherited and non-public ones",
             "homepage": "https://github.com/sebastianbergmann/object-reflector/",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/object-reflector/issues",
-                "source": "https://github.com/sebastianbergmann/object-reflector/tree/2.0.4"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -11754,12 +11461,12 @@
             "version": "6.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/phpcpd.git",
                 "reference": "f3683aa0db2e8e09287c2bb33a595b2873ea9176"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/f3683aa0db2e8e09287c2bb33a595b2873ea9176",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpcpd/zipball/f3683aa0db2e8e09287c2bb33a595b2873ea9176",
                 "reference": "f3683aa0db2e8e09287c2bb33a595b2873ea9176",
                 "shasum": ""
             },
@@ -11798,16 +11505,13 @@
             ],
             "description": "Copy/Paste Detector (CPD) for PHP code.",
             "homepage": "https://github.com/sebastianbergmann/phpcpd",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/phpcpd/issues",
-                "source": "https://github.com/sebastianbergmann/phpcpd/tree/6.0.3"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
                 }
             ],
+            "abandoned": true,
             "time": "2020-12-07T05:39:23+00:00"
         },
         {
@@ -11874,12 +11578,12 @@
             "version": "3.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/resource-operations.git",
                 "reference": "0f4443cb3a1d92ce809899753bc0d5d5a8dd19a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/0f4443cb3a1d92ce809899753bc0d5d5a8dd19a8",
+                "url": "https://api.github.com/repos/sebastianbergmann/resource-operations/zipball/0f4443cb3a1d92ce809899753bc0d5d5a8dd19a8",
                 "reference": "0f4443cb3a1d92ce809899753bc0d5d5a8dd19a8",
                 "shasum": ""
             },
@@ -11912,10 +11616,6 @@
             ],
             "description": "Provides a list of PHP built-in functions that operate on resources",
             "homepage": "https://www.github.com/sebastianbergmann/resource-operations",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/resource-operations/issues",
-                "source": "https://github.com/sebastianbergmann/resource-operations/tree/3.0.3"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -11981,12 +11681,12 @@
             "version": "3.0.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/sebastianbergmann/version.git",
                 "reference": "c6c1022351a901512170118436c764e473f6de8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/c6c1022351a901512170118436c764e473f6de8c",
+                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/c6c1022351a901512170118436c764e473f6de8c",
                 "reference": "c6c1022351a901512170118436c764e473f6de8c",
                 "shasum": ""
             },
@@ -12017,10 +11717,6 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/version/issues",
-                "source": "https://github.com/sebastianbergmann/version/tree/3.0.2"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -12105,12 +11801,12 @@
             "version": "3.6.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
                 "reference": "5e4e71592f69da17871dba6e80dd51bce74a351a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/5e4e71592f69da17871dba6e80dd51bce74a351a",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/5e4e71592f69da17871dba6e80dd51bce74a351a",
                 "reference": "5e4e71592f69da17871dba6e80dd51bce74a351a",
                 "shasum": ""
             },
@@ -12149,11 +11845,6 @@
                 "phpcs",
                 "standards"
             ],
-            "support": {
-                "issues": "https://github.com/squizlabs/PHP_CodeSniffer/issues",
-                "source": "https://github.com/squizlabs/PHP_CodeSniffer",
-                "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
-            },
             "time": "2021-12-12T21:44:58+00:00"
         },
         {
@@ -12507,12 +12198,12 @@
             "version": "1.2.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/theseer/tokenizer.git",
                 "reference": "34a41e998c2183e22995f158c581e7b5e755ab9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/34a41e998c2183e22995f158c581e7b5e755ab9e",
+                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/34a41e998c2183e22995f158c581e7b5e755ab9e",
                 "reference": "34a41e998c2183e22995f158c581e7b5e755ab9e",
                 "shasum": ""
             },
@@ -12540,10 +12231,6 @@
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
-            "support": {
-                "issues": "https://github.com/theseer/tokenizer/issues",
-                "source": "https://github.com/theseer/tokenizer/tree/1.2.1"
-            },
             "funding": [
                 {
                     "url": "https://github.com/theseer",
@@ -12557,12 +12244,12 @@
             "version": "v1.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-codeception.git",
+                "url": "https://github.com/weew/helpers-array.git",
                 "reference": "9bff63111f9765b4277750db8d276d92b3e16ed0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-codeception/zipball/9bff63111f9765b4277750db8d276d92b3e16ed0",
+                "url": "https://api.github.com/repos/weew/helpers-array/zipball/9bff63111f9765b4277750db8d276d92b3e16ed0",
                 "reference": "9bff63111f9765b4277750db8d276d92b3e16ed0",
                 "shasum": ""
             },
@@ -12587,10 +12274,6 @@
                 }
             ],
             "description": "Useful collection of php array helpers.",
-            "support": {
-                "issues": "https://github.com/weew/helpers-array/issues",
-                "source": "https://github.com/weew/helpers-array/tree/master"
-            },
             "time": "2016-07-21T11:18:01+00:00"
         }
     ],
