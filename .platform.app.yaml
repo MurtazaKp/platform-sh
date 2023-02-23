@@ -1,51 +1,115 @@
+# This file describes an application. You can have multiple applications
+# in the same project.
+#
+# See https://docs.platform.sh/user_guide/reference/platform-app-yaml.html
+
 # The name of this app. Must be unique within a project.
-name: app
+name: magento2
 
-# The runtime the application uses. The 'type' key defines the base container
-# image that will be used to run the application. There is a separate base
-# container image for each primary language for the application,
-# in multiple versions. Check the PHP documentation
-# (https://docs.platform.sh/languages/php.html#supported-versions)
-# to find the supported versions for the 'php' type.
-type: 'php:7.4'
+# The runtime the application uses.
+type: php:7.4
 
-# The following block defines a single writable directory, 'web/uploads'
-# The 'source' specifies where the writable mount is. The 'local' source
-# indicates that the mount point will point to a local directory on the
-# application container. The 'source_path' specifies the subdirectory
-# from within the source that the mount should point at. 
-mounts:
-  'web/uploads':
-    source: local
-    source_path: uploads
+dependencies:
+    php:
+        composer/composer: "^1"
 
-# The size of the persistent disk of the application (in MB).
-disk: 256
+###
+# Specify additional PHP extensions that should be loaded.
+# To determine what you need to enable
+#   1. run locally: composer check-platform-reqs | grep "ext-\|php"
+#   2. Compare to https://docs.platform.sh/languages/php/extensions.html
+#      - "Def" = Already Enabled
+#      - "Avail" = Available, but you need to enable below.
+runtime:
+    extensions:
+        - xsl
+        - sodium
+
+# Customize your PHP.ini.
+# See: https://docs.platform.sh/languages/php/ini.html
+variables:
+    php:
+        # Include Magento's out-of-the-box settings
+        include: /app/.user.ini
+
+# Configuration of the build of this application.
+build:
+    flavor: composer
 
 # The relationships of the application with services or other applications.
 #
 # The left-hand side is the name of the relationship as it will be exposed
 # to the application in the PLATFORM_RELATIONSHIPS variable. The right-hand
-# side is in the form '<service name>:<endpoint name>'.
+# side is in the form `<service name>:<endpoint name>`.
 relationships:
-    database: 'db:mysql'
-    essearch: 'searchelastic:elasticsearch'
+    database: magento_database:mysql
+    redis: magento_redis:redis
+    search: magento_search:opensearch
 
+# The size of the persistent disk of the application (in MB).
+disk: 2048
 
+# The 'mounts' describe writable, persistent filesystem mounts in the application.
+mounts:
+    "var": "shared:files/var"
+    "generated": "shared:files/generated"
+    "app/etc": "shared:files/etc"
+    "pub/media": "shared:files/media"
+    "pub/static": "shared:files/static"
+
+# The hooks executed at various points in the lifecycle of the application.
 hooks:
+    # The build hook runs on your code to prepare it for an active environment.
     build: |
-      set -e
+        set -e
+        mkdir -p .versioned_backup/etc && cp app/etc/* .versioned_backup/etc/
+    # The deploy hook runs after your application has been deployed and started.
     deploy: |
-      set -e
+        set -e
+        cp .versioned_backup/etc/* app/etc/
+        php deploy.php
 
+# The configuration of app when it is exposed to the web.
 web:
-  locations: 
-    '/': 
-      root: "web"
-      passthru: "public/index.php"
+    locations:
+        '/':
+            root: "pub"
+            passthru: "/index.php"
+            index:
+                - index.php
+            scripts: true
+            allow: false
+            rules:
+                \.(css|js|map|hbs|gif|jpe?g|png|tiff|wbmp|ico|jng|bmp|svgz|midi?|mp?ga|mp2|mp3|m4a|ra|weba|3gpp?|mp4|mpe?g|mpe|ogv|mov|webm|flv|mng|asx|asf|wmv|avi|ogx|swf|jar|ttf|eot|woff|otf|html?)$:
+                    allow: true
+                ^/sitemap(.*)\.xml$:
+                    passthru: "/media/sitemap$1.xml"
+        '/media':
+            root: "pub/media"
+            allow: true
+            scripts: false
+            passthru: "/get.php"
+            expires: 1y
+        '/static':
+            root: "pub/static"
+            allow: true
+            scripts: false
+            passthru: "/static.php"
+            expires: 1y
+            rules:
+                ^/static/version\d+/(?<resource>.*)$:
+                    passthru: "/static/$resource"
 
-runtime:
-    extensions:
-        - sodium
-        - xsl
+# The configuration of scheduled execution.
+crons:
+    magento:
+        spec: "*/5 * * * *"
+        cmd: "php bin/magento cron:run"
 
+workers:
+    queue:
+        size: S
+        disk: 128
+        commands:
+            start: |
+                bin/magento queue:consumers:start async.operations.all --single-thread --max-messages=10000
