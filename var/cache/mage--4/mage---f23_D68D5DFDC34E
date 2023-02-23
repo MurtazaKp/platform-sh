@@ -1,0 +1,93 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1677074328;s:6:"expire";i:1677074628;s:4:"tags";s:42:"f23_GOOMENTO_PAGEBUILDER_FRONTEND,f23_MAGE";}
+        <div class="gmt-widget-container" data-mage-init="&#x7B;&quot;goomento-widget-banner-slider&quot;&#x3A;&#x7B;&quot;slides_to_show&quot;&#x3A;&quot;1&quot;,&quot;navigation&quot;&#x3A;&quot;both&quot;,&quot;pause_on_hover&quot;&#x3A;&quot;yes&quot;,&quot;autoplay&quot;&#x3A;&quot;yes&quot;,&quot;autoplay_speed&quot;&#x3A;5000,&quot;infinite&quot;&#x3A;&quot;yes&quot;,&quot;effect&quot;&#x3A;&quot;slide&quot;,&quot;speed&quot;&#x3A;500,&quot;direction&quot;&#x3A;&quot;ltr&quot;&#x7D;&#x7D;">
+                <div class="gmt-banner-slider-wrapper swiper-container">
+        <div class="gmt-banner-carousel swiper-wrapper">
+                            <div class="gmt-banner-slider-item swiper-slide">
+                                                        <div class="gmt-widget-container">
+                <div class="gmt-banner-wrapper">
+        <figure class="gmt-banner-img"><img  class=" swiper-slide-image" src="http://local.magento2.com/media/wysiwyg/38EE6240-05B2-4B95-98BD-20FA86D884D1.jpeg" title="38EE6240-05B2-4B95-98BD-20FA86D884D1.jpeg" alt="38EE6240-05B2-4B95-98BD-20FA86D884D1.jpeg" /></figure>
+            </div>
+            </div>
+                        </div>
+                            <div class="gmt-banner-slider-item swiper-slide">
+                                                        <div class="gmt-widget-container">
+                <div class="gmt-banner-wrapper">
+        <figure class="gmt-banner-img"><img  class=" swiper-slide-image" src="http://local.magento2.com/media/wysiwyg/443AF004-0295-4DA3-B01F-5D4231218475.jpeg" title="443AF004-0295-4DA3-B01F-5D4231218475.jpeg" alt="443AF004-0295-4DA3-B01F-5D4231218475.jpeg" /></figure>
+                    <div class="gmt-banner-content&#x20;gmt-banner-content-position-bottom-right">
+                                    <div class="gmt-banner-title">
+
+            Enter the title here.
+                            </div>
+                                        <div class="gmt-banner-description">
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </div>
+                            </div>
+            </div>
+            </div>
+                        </div>
+                            <div class="gmt-banner-slider-item swiper-slide">
+                                                        <div class="gmt-widget-container">
+                <div class="gmt-banner-wrapper">
+        <figure class="gmt-banner-img"><img  class=" swiper-slide-image" src="http://local.magento2.com/media/wysiwyg/E89749A3-B3C2-47CE-990B-BFD3DCF53EF6.jpeg" title="E89749A3-B3C2-47CE-990B-BFD3DCF53EF6.jpeg" alt="E89749A3-B3C2-47CE-990B-BFD3DCF53EF6.jpeg" /></figure>
+                    <div class="gmt-banner-content&#x20;gmt-banner-content-position-bottom-right">
+                                    <div class="gmt-banner-title">
+
+            Enter the title here.
+                            </div>
+                                        <div class="gmt-banner-description">
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </div>
+                            </div>
+            </div>
+            </div>
+                        </div>
+                            <div class="gmt-banner-slider-item swiper-slide">
+                                                        <div class="gmt-widget-container">
+                <div class="gmt-banner-wrapper">
+        <figure class="gmt-banner-img"><img  class=" swiper-slide-image" src="http://local.magento2.com/media/wysiwyg/E255047E-DD3F-44AE-867A-30EC5471A314.jpeg" title="E255047E-DD3F-44AE-867A-30EC5471A314.jpeg" alt="E255047E-DD3F-44AE-867A-30EC5471A314.jpeg" /></figure>
+                    <div class="gmt-banner-content&#x20;gmt-banner-content-position-bottom-right">
+                                    <div class="gmt-banner-title">
+
+            Enter the title here.
+                            </div>
+                                </div>
+            </div>
+            </div>
+                        </div>
+                            <div class="gmt-banner-slider-item swiper-slide">
+                                                        <div class="gmt-widget-container">
+                <div class="gmt-banner-wrapper">
+        <figure class="gmt-banner-img"><img  class=" swiper-slide-image" src="http://local.magento2.com/media/wysiwyg/EB6F1BCC-42E3-4C80-BC51-9DA1F1EA9F67.jpeg" title="EB6F1BCC-42E3-4C80-BC51-9DA1F1EA9F67.jpeg" alt="EB6F1BCC-42E3-4C80-BC51-9DA1F1EA9F67.jpeg" /></figure>
+                    <div class="gmt-banner-content&#x20;gmt-banner-content-position-bottom-right">
+                                    <div class="gmt-banner-title">
+
+            Enter the title here.
+                            </div>
+                                        <div class="gmt-banner-description">
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </div>
+                            </div>
+            </div>
+            </div>
+                        </div>
+                    </div>
+                                    <div class="swiper-pagination"></div>
+            
+                        <div class="gmt-swiper-button gmt-swiper-button-prev">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                <span class="gmt-screen-only">
+                    Previous                </span>
+            </div>
+            <div class="gmt-swiper-button gmt-swiper-button-next">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                <span class="gmt-screen-only">
+                    Next                </span>
+            </div>
+                        </div>
+
+
+        </div>
+        
