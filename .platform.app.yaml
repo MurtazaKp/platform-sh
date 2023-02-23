@@ -45,7 +45,7 @@ relationships:
     database: magento_database:mysql
     redis: magento_redis:redis
     search: magento_search:opensearch
-    app: "http:php-fpm"
+    
 
 # The size of the persistent disk of the application (in MB).
 disk: 2048
