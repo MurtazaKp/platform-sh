@@ -1,5 +1,5 @@
 "https://{default}/":
     type: upstream
-    upstream: "magento2:http"
+    upstream: "magento:http"
 
 
