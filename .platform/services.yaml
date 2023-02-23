@@ -1,5 +1,5 @@
 magento_database:
-    type: mysql:14.14
+    type: mysql:10.2
     disk: 2048
 
 # Magento's cache & session redis instance
